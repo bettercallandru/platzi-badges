@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],[,,,function(e,n,t){e.exports=t(4)},function(e,n,t){"use strict";t.r(n);var a=t(0),o=t.n(a),p=t(2),c=t.n(p),l=document.getElementById("app"),r=o.a.createElement("h1",null,"Hello, Platzi Badges");c.a.render(r,l)}],[[3,1,2]]]);
+//# sourceMappingURL=main.bf7dd43c.chunk.js.map

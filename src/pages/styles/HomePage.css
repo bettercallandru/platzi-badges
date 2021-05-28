@@ -1,0 +1,32 @@
+.HomePage-hero {
+	width: 100%;
+	height: calc(100vh - (70px + 150px));
+	padding-top: 150px;
+	background: url('../../images/stars.svg'), #1b1b25;
+	background-repeat: repeat;
+}
+
+.HomePage__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.HomePage__introduce {
+	width: 35%;
+	max-width: 450px;
+	color: #ffff;
+}
+
+.HomePage-conf {
+	width: 90%;
+}
+
+.HomePage-logo {
+	width: 60%;
+	max-width: 700px;
+}
+
+.HomePage-logo > img {
+	width: 100%;
+}

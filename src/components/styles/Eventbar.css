@@ -1,0 +1,24 @@
+.Eventbar {
+	min-height: 70px;
+	background: #172e42;
+
+	display: flex;
+	align-items: center;
+}
+
+.Eventbar__brand {
+	font-size: 1.7rem;
+	text-decoration: none;
+	margin-left: 10px;
+
+	display: flex;
+	align-items: center;
+}
+
+.Eventbar__brand:hover {
+	color: #d6d6d6;
+}
+
+.Eventbar__brand > span {
+	margin: 0 2.5px;
+}

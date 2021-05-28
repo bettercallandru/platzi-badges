@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import './global.css';
+import App from './components/App';
+
 const container = document.getElementById('app');
 
-const element = <h1>Hello, Platzi Badges</h1>;
+const element = <App />;
 ReactDOM.render(element, container);

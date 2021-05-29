@@ -36,6 +36,10 @@ a {
 	margin: 5px 0;
 }
 
+.font-normal {
+	font-size: 1.6rem;
+}
+
 .font-weight-light {
 	font-weight: 400;
 }

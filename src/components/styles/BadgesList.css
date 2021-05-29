@@ -1,0 +1,60 @@
+.Badge__item {
+	list-style: none;
+	background: #ffff;
+	border-radius: 6px;
+	margin: 15px auto;
+	overflow: hidden;
+
+	border: 1px solid rgb(45, 196, 255);
+}
+
+.Badge__header {
+	min-height: 30px;
+	padding: 0 20px;
+	background: rgb(236, 236, 236);
+	border-bottom: 1px solid rgb(216, 216, 216);
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.icon {
+	width: 20px;
+	margin-right: 10px;
+}
+
+.Badge__data {
+	padding: 25px 50px;
+
+	display: flex;
+}
+
+.Badge__data-avatar {
+	width: 100px;
+	border-radius: 50%;
+	margin-right: 50px;
+}
+
+.Badge__data-description {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.BadgesList__link {
+	color: rgb(3, 146, 241);
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+.BadgesList__link :hover {
+	color: rgb(0, 127, 212);
+}
+
+.Badge__data-description > a,
+.Badge__data-description > p {
+	font-size: 1.6rem;
+}

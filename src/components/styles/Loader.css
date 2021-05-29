@@ -1,0 +1,18 @@
+@keyframes Loader {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.Loader {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 5px solid #d8e2d5;
+	border-top: 5px solid #172e42;
+
+	animation: Loader 2s ease infinite;
+}

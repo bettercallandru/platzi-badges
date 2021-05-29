@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './styles/Badges.css';
 import api from '../api';
@@ -33,11 +34,19 @@ class Badges extends React.Component {
 				<div className="Badge-hero">
 					<img className="Badge-logo" src={ConfLogo} alt="Platzi conf logo" />
 				</div>
-				<BadgesList
-					loading={this.state.loading}
-					error={this.state.error}
-					data={this.state.data}
-				/>
+				<div className="Badges__container">
+					<Link
+						className="btn link-unstyled btn-primary Badges__link"
+						to="/badges/new"
+					>
+						Add
+					</Link>
+					<BadgesList
+						loading={this.state.loading}
+						error={this.state.error}
+						data={this.state.data}
+					/>
+				</div>
 			</React.Fragment>
 		);
 	}

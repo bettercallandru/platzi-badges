@@ -1,0 +1,19 @@
+.Modal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Modal__container {
+	min-width: 300px;
+	min-height: 150px;
+	background: #ffff;
+	border-radius: 10px;
+}

@@ -1,0 +1,29 @@
+.BadgeNew__hero {
+	width: 100%;
+	padding: 40px 10%;
+	background: url('../../images/stars.svg'), #1b1b25;
+	background-repeat: repeat;
+}
+
+.BadgeNew-logo {
+	width: 250px;
+}
+
+.BadgeNew__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.row {
+	width: 45%;
+}
+
+.BadgeNew__form {
+	position: relative;
+	top: -190px;
+}
+
+.BadgeNew__form > h1 {
+	color: #ffff;
+	text-align: center;
+}

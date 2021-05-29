@@ -20,9 +20,9 @@ function BadgesList(props) {
 			{props.data.map((badge) => {
 				return (
 					<li className="Badge__item" key={badge.id}>
-						<div className="Badge__header">
+						<div className="BadgeList__header">
 							<h3 className="font-normal font-weight-light">{`${badge.firstName} ${badge.lastName}`}</h3>
-							<a href="">
+							<a href="/badges">
 								<img className="icon" src={IconEdit} alt="Edit the badge" />
 							</a>
 						</div>
@@ -34,13 +34,13 @@ function BadgesList(props) {
 							/>
 							<div className="Badge__data-description">
 								<p>{badge.jobTitle}</p>
-								<a className="BadgesList__link" href="">
+								<a className="BadgesList__link" href="/badges">
 									<img className="icon" src={EmailIcon} alt="email icon" />
 									{badge.email}
 								</a>
-								<a className="BadgesList__link" href="">
+								<a className="BadgesList__link" href="/badges">
 									<img className="icon" src={TwitterIcon} alt="twitter icon" />@
-									@{badge.twitter}
+									{badge.twitter}
 								</a>
 							</div>
 						</div>

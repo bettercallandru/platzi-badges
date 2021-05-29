@@ -1,9 +1,11 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 
 import Layout from './Layout';
 import HomePage from '../pages/HomePage';
 import Badges from '../pages/Badges';
+import BadgeNew from '../pages/BadgeNew';
+import NotFound from '../components/NotFound';
 
 function App() {
 	return (
@@ -12,6 +14,9 @@ function App() {
 				<Switch>
 					<Route exact path="/" component={HomePage} />
 					<Route exact path="/badges/" component={Badges} />
+					<Route exact path="/badges/new" component={BadgeNew} />
+					<Route exact path="/404" component={NotFound} />
+					<Redirect from="*" to="/404" />
 				</Switch>
 			</Layout>
 		</BrowserRouter>

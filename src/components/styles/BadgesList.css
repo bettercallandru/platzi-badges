@@ -8,7 +8,7 @@
 	border: 1px solid rgb(45, 196, 255);
 }
 
-.Badge__header {
+.BadgeList__header {
 	min-height: 30px;
 	padding: 0 20px;
 	background: rgb(236, 236, 236);

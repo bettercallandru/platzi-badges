@@ -1,11 +1,17 @@
 {
-  "main.js": "/platzi-badges/static/js/main.bf7dd43c.chunk.js",
-  "main.js.map": "/platzi-badges/static/js/main.bf7dd43c.chunk.js.map",
+  "main.css": "/platzi-badges/static/css/main.f5d6c33b.chunk.css",
+  "main.js": "/platzi-badges/static/js/main.7d4bfb9d.chunk.js",
+  "main.js.map": "/platzi-badges/static/js/main.7d4bfb9d.chunk.js.map",
   "runtime~main.js": "/platzi-badges/static/js/runtime~main.0f7117b1.js",
   "runtime~main.js.map": "/platzi-badges/static/js/runtime~main.0f7117b1.js.map",
-  "static/js/2.2efde4a4.chunk.js": "/platzi-badges/static/js/2.2efde4a4.chunk.js",
-  "static/js/2.2efde4a4.chunk.js.map": "/platzi-badges/static/js/2.2efde4a4.chunk.js.map",
+  "static/js/2.1f81c7e6.chunk.js": "/platzi-badges/static/js/2.1f81c7e6.chunk.js",
+  "static/js/2.1f81c7e6.chunk.js.map": "/platzi-badges/static/js/2.1f81c7e6.chunk.js.map",
   "index.html": "/platzi-badges/index.html",
-  "precache-manifest.41c01e0c5999f0d09f7d2935b96c7f63.js": "/platzi-badges/precache-manifest.41c01e0c5999f0d09f7d2935b96c7f63.js",
-  "service-worker.js": "/platzi-badges/service-worker.js"
+  "precache-manifest.b4980a204fb7b269a0f38c6dbb6de68d.js": "/platzi-badges/precache-manifest.b4980a204fb7b269a0f38c6dbb6de68d.js",
+  "service-worker.js": "/platzi-badges/service-worker.js",
+  "static/css/main.f5d6c33b.chunk.css.map": "/platzi-badges/static/css/main.f5d6c33b.chunk.css.map",
+  "static/media/astronauts.svg": "/platzi-badges/static/media/astronauts.71addf45.svg",
+  "static/media/logo.svg": "/platzi-badges/static/media/logo.0026b862.svg",
+  "static/media/platziconf-logo.svg": "/platzi-badges/static/media/platziconf-logo.f246f5f1.svg",
+  "static/media/Badges.css": "/platzi-badges/static/media/stars.1d17360a.svg"
 }

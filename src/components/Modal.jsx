@@ -1,12 +1,23 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
 import './styles/Modal.css';
 
 function Modal(props) {
-	return (
+	if (!props.isOpen) {
+		return null;
+	}
+
+	return ReactDOM.createPortal(
 		<div className="Modal">
-			<div className="Modal__container">{props.children}</div>
-		</div>
+			<div className="Modal__container">
+				<button onClick={props.closeModal} className="Modal__close-button">
+					X
+				</button>
+				{props.children}
+			</div>
+		</div>,
+		document.getElementById('modal')
 	);
 }
 

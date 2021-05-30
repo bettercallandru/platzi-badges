@@ -10,15 +10,6 @@
       "avatarUrl": "https://www.gravatar.com/avatar/01d0de92ec9ca4fdfbb99edf6a1abfea?d=identicon"
     },
     {
-      "id": "3629db36-14f9-4f24-b139-200f3a1b9af7",
-      "firstName": "Breanna",
-      "lastName": "Runolfsdottir",
-      "email": "Laurianne.Lynch@gmail.com",
-      "jobTitle": "Lead Marketing Director",
-      "twitter": "BreannaRunolfsdottir70705-1477",
-      "avatarUrl": "https://www.gravatar.com/avatar/684697e194c66d338c5ee91d030121cc?d=identicon"
-    },
-    {
       "id": "8c734836-1f7a-4493-b903-37db30fc7224",
       "firstName": "Jan",
       "lastName": "Oberbrunner",
@@ -422,28 +413,12 @@
       "id": "koPl1Bq"
     },
     {
-      "firstName": "dasdas",
-      "lastName": "dasdasd",
-      "jobTitle": "dasdas",
-      "email": "sdasd@email.com",
-      "twitter": "dasdas",
-      "id": "TDJn-9C"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "jobTitle": "",
-      "email": "",
-      "twitter": "",
-      "id": "-RFFE03"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "jobTitle": "",
-      "email": "",
-      "twitter": "",
-      "id": "0zgd5aJ"
+      "id": "0zgd5aJ",
+      "firstName": "Alexander",
+      "lastName": "Salgado",
+      "email": "droxander@droxander.com",
+      "jobTitle": "Frontend Engineer",
+      "twitter": "droxsander"
     }
   ]
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './styles/BadgesList.css';
 import PageLoading from './PageLoading';
@@ -22,9 +23,9 @@ function BadgesList(props) {
 					<li className="Badge__item" key={badge.id}>
 						<div className="BadgeList__header">
 							<h3 className="font-normal font-weight-light">{`${badge.firstName} ${badge.lastName}`}</h3>
-							<a href="/badges">
+							<Link to={`/badges/${badge.id}`}>
 								<img className="icon" src={IconEdit} alt="Edit the badge" />
-							</a>
+							</Link>
 						</div>
 						<div className="Badge__data">
 							<img
@@ -34,11 +35,14 @@ function BadgesList(props) {
 							/>
 							<div className="Badge__data-description">
 								<p>{badge.jobTitle}</p>
-								<a className="BadgesList__link" href="/badges">
+								<a className="BadgesList__link" href={`mailto:${badge.email}`}>
 									<img className="icon" src={EmailIcon} alt="email icon" />
 									{badge.email}
 								</a>
-								<a className="BadgesList__link" href="/badges">
+								<a
+									className="BadgesList__link"
+									href={`https://twitter.com/${badge.twitter}`}
+								>
 									<img className="icon" src={TwitterIcon} alt="twitter icon" />@
 									{badge.twitter}
 								</a>

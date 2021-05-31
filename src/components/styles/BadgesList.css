@@ -1,4 +1,8 @@
-.Badge__item {
+.BadgesList {
+	padding: 0;
+}
+
+.BadgeList__item {
 	list-style: none;
 	background: #ffff;
 	border-radius: 6px;
@@ -19,35 +23,38 @@
 	align-items: center;
 }
 
-.icon {
-	width: 20px;
-	margin-right: 10px;
-}
-
-.Badge__data {
-	padding: 25px 50px;
+.BadgeList__data {
+	padding: 20px 0px;
 
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .Badge__data-avatar {
 	width: 100px;
 	border-radius: 50%;
-	margin-right: 50px;
 }
 
 .Badge__data-description {
+	margin-top: 20px;
+
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
 }
 
+.Badge__data-description > p {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
 .BadgesList__link {
 	color: rgb(3, 146, 241);
 	display: flex;
 	align-items: center;
-	text-decoration: none;
 }
 
 .BadgesList__link :hover {
@@ -57,4 +64,20 @@
 .Badge__data-description > a,
 .Badge__data-description > p {
 	font-size: 1.6rem;
+}
+
+@media screen and (min-width: 730px) {
+	.BadgeList__data {
+		padding: 20px 25px;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.Badge__data-description {
+		margin-top: 0px;
+	}
+
+	.Badge__data-description > p {
+		text-align: start;
+	}
 }

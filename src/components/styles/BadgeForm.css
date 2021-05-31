@@ -1,5 +1,8 @@
 .BadgeForm {
+	width: 100%;
+	max-width: 400px;
 	padding: 25px 20px;
+	margin: 0 auto;
 	border-radius: 8px;
 	background: #ffff;
 	box-shadow: 0 10px 10px -5px rgb(214, 214, 214);
@@ -31,6 +34,7 @@
 }
 
 .BadgeForm-link {
+	font-size: 1.7rem;
 	color: rgb(1, 150, 219);
 	text-decoration: none;
 

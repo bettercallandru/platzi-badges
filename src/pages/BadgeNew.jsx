@@ -51,6 +51,7 @@ class BadgeNew extends React.Component {
 		this.setState({ loading: true, error: null });
 		try {
 			await api.badges.create(this.state.form);
+			this.handleClear();
 			this.setState({ loading: false });
 		} catch (error) {
 			this.setState({ loading: false, error: error });
@@ -58,20 +59,27 @@ class BadgeNew extends React.Component {
 	};
 
 	render() {
+		if (this.state.loading && this.state.form) {
+			return ReactDOM.createPortal(
+				<Modal isOpen={this.state.loading} type="loading">
+					<PageLoading>Cargando Badge...</PageLoading>
+				</Modal>,
+				document.getElementById('modal')
+			);
+		}
+
 		return (
 			<React.Fragment>
 				<div className="BadgeNew__hero">
-					<img
-						className="BadgeNew-logo"
-						src={ConfLogo}
-						alt="PLatzi Conf logo"
-					/>
+					<div className="container">
+						<img className="Badge-logo" src={ConfLogo} alt="PLatzi Conf logo" />
+					</div>
 				</div>
 				<div className="container BadgeNew__container">
-					<div className="row">
+					<div className="Badge__row">
 						<Badge data={this.state.form} />
 					</div>
-					<div className="row BadgeNew__form">
+					<div className="Badge__row BadgeNew__form">
 						<h1>New Attendant</h1>
 						<BadgeForm
 							form={this.state.form}
@@ -81,13 +89,6 @@ class BadgeNew extends React.Component {
 						/>
 					</div>
 				</div>
-				{this.state.loading &&
-					ReactDOM.createPortal(
-						<Modal>
-							<PageLoading>Cargando Badge...</PageLoading>
-						</Modal>,
-						document.getElementById('modal')
-					)}
 			</React.Fragment>
 		);
 	}

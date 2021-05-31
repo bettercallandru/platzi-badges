@@ -1,23 +1,21 @@
 .BadgeDetails-hero {
 	width: 100%;
-	padding: 40px 10%;
+	padding: 40px 0px;
 	background: url('../../images/stars.svg'), #1b1b25;
 	background-repeat: repeat;
-
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
 	color: #fff;
 }
 
 .BadgeDetails__container {
-	width: 80%;
-	max-width: 1000px;
-	margin: 0 auto;
+	margin-bottom: 40px;
 
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+}
+
+.row {
+	width: 100%;
 }
 
 .row > h2 {
@@ -27,4 +25,20 @@
 
 .btn {
 	border: none;
+}
+
+@media screen and (min-width: 1000px) {
+	.BadgeDetails__container {
+		max-width: 800px;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.BadgeDetails__container:first-of-type {
+		justify-content: space-around;
+	}
+
+	.BadgeDetails__name {
+		margin-right: 40px;
+	}
 }

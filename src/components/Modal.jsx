@@ -11,9 +11,11 @@ function Modal(props) {
 	return ReactDOM.createPortal(
 		<div className="Modal">
 			<div className="Modal__container">
-				<button onClick={props.closeModal} className="Modal__close-button">
-					X
-				</button>
+				{props.type != 'loading' && (
+					<button onClick={props.closeModal} className="Modal__close-button">
+						X
+					</button>
+				)}
 				{props.children}
 			</div>
 		</div>,

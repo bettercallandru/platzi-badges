@@ -52,14 +52,12 @@ class BadgeDetails extends React.Component {
 		return (
 			<React.Fragment>
 				<div className="BadgeDetails-hero">
-					<img
-						className="BadgeNew-logo"
-						src={ConfLogo}
-						alt="Platzi Conf logo"
-					/>
-					<h1>{`${this.state.data.firstName} ${this.state.data.lastName}`}</h1>
+					<div className="container BadgeDetails__container">
+						<img className="Badge-logo" src={ConfLogo} alt="Platzi Conf logo" />
+						<h1 className="BadgeDetails__name">{`${this.state.data.firstName} ${this.state.data.lastName}`}</h1>
+					</div>
 				</div>
-				<div className="BadgeDetails__container">
+				<div className="container BadgeDetails__container">
 					<div className="row">
 						<Badge data={this.state.data} />
 					</div>

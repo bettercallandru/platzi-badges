@@ -5,7 +5,7 @@ import Modal from './Modal';
 function DeleteBadgeModal(props) {
 	return (
 		<Modal isOpen={props.isOpen} closeModal={props.closeModal}>
-			<h1>Are you sure?</h1>
+			<h1 className="font-color-secundary">Are you sure?</h1>
 			<p>You are about to delete this badge.</p>
 
 			<div>

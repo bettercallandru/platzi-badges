@@ -63,7 +63,9 @@ function BadgeForm(props) {
 			>
 				Clear
 			</button>
-			<button className="btn btn-primary">Save</button>
+			<button type="submit" className="btn btn-primary">
+				Save
+			</button>
 		</form>
 	);
 }

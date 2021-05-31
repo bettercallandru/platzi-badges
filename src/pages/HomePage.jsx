@@ -19,9 +19,7 @@ function HomePage() {
 						Start now
 					</Link>
 				</div>
-				<div className="HomePage-logo">
-					<img src={Astronauts} alt="Astronautas" />
-				</div>
+				<img className="HomePage-logo" src={Astronauts} alt="Astronautas" />
 			</div>
 		</div>
 	);

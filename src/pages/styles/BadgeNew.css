@@ -1,29 +1,50 @@
 .BadgeNew__hero {
 	width: 100%;
-	padding: 40px 10%;
+	padding: 40px 0px;
 	background: url('../../images/stars.svg'), #1b1b25;
 	background-repeat: repeat;
 }
 
-.BadgeNew-logo {
-	width: 250px;
+.Badge-logo {
+	display: block;
+	width: 210px;
+	margin: 0 auto;
 }
 
 .BadgeNew__container {
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
+	margin-bottom: 40px;
 }
 
-.row {
-	width: 45%;
-}
-
-.BadgeNew__form {
-	position: relative;
-	top: -190px;
+.Badge__row {
+	width: 100%;
+	margin-bottom: 15px;
 }
 
 .BadgeNew__form > h1 {
-	color: #ffff;
+	color: black;
 	text-align: center;
+}
+
+.BadgeNew__loader {
+	font-size: 1.6px;
+}
+
+@media screen and (min-width: 1000px) {
+	.BadgeNew__container {
+		flex-direction: row;
+	}
+
+	.BadgeNew__form {
+		margin-top: -180px;
+	}
+
+	.BadgeNew__form > h1 {
+		color: #ffff;
+	}
+
+	.Badge-logo {
+		margin: 0px;
+	}
 }

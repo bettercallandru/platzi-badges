@@ -32,11 +32,17 @@ class Badges extends React.Component {
 		return (
 			<React.Fragment>
 				<div className="Badge-hero">
-					<img className="Badge-logo" src={ConfLogo} alt="Platzi conf logo" />
+					<div className="container Badges__container">
+						<img
+							className="Badges-logo"
+							src={ConfLogo}
+							alt="Platzi conf logo"
+						/>
+					</div>
 				</div>
-				<div className="Badges__container">
+				<div className="container Badges__container">
 					<Link
-						className="btn link-unstyled btn-primary Badges__link"
+						className="btn btn-primary link-unstyled Badges__link"
 						to="/badges/new"
 					>
 						Add

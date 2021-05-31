@@ -1,9 +1,12 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
+import './styles/BadgeNew.css';
 import ConfLogo from '../images/platziconf-logo.svg';
 import Badge from '../components/Badge';
 import BadgeForm from '../components/BadgeForm';
 import PageLoading from '../components/PageLoading';
+import Modal from '../components/Modal';
 import api from '../api';
 
 class BadgeEdit extends React.Component {
@@ -38,12 +41,16 @@ class BadgeEdit extends React.Component {
 	handleSubmit = async (e) => {
 		e.preventDefault();
 		this.setState({ loading: true, error: null });
+		this.submit = true;
 
 		try {
 			await api.badges.update(this.props.match.params.badgeId, this.state.data);
 			this.setState({ loading: false });
+			this.submit = false;
+			this.props.history.push('/badges');
 		} catch (error) {
 			this.setState({ loading: false, error: error });
+			this.submit = false;
 		}
 	};
 
@@ -66,18 +73,25 @@ class BadgeEdit extends React.Component {
 	};
 
 	render() {
-		if (this.state.loading) {
+		if (this.state.loading && !this.submit) {
 			return <PageLoading />;
+		}
+
+		if (this.state.loading && this.submit) {
+			return ReactDOM.createPortal(
+				<Modal isOpen={this.state.loading} type="loading">
+					<PageLoading>Modificando Badge...</PageLoading>
+				</Modal>,
+				document.getElementById('modal')
+			);
 		}
 
 		return (
 			<React.Fragment>
 				<div className="BadgeNew__hero">
-					<img
-						className="BadgeNew-logo"
-						src={ConfLogo}
-						alt="PLatzi Conf logo"
-					/>
+					<div className="container">
+						<img className="Badge-logo" src={ConfLogo} alt="PLatzi Conf logo" />
+					</div>
 				</div>
 				<div className="container BadgeNew__container">
 					<div className="row">

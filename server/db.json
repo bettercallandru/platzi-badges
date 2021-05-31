@@ -388,15 +388,6 @@
       "id": "EYR2BVQ"
     },
     {
-      "firstName": "Carolynn",
-      "lastName": "Kaufman",
-      "email": "carolynn@example.com",
-      "avatarUrl": "https://www.gravatar.com/avatar/580a552f26ac5e3a0817c3ecc5b9d690?d=identicon",
-      "jobTitle": "Lawyer",
-      "twitter": "ckaufmanpr",
-      "id": "npaYZKI"
-    },
-    {
       "firstName": "Adrian",
       "lastName": "Salgado",
       "jobTitle": "Frontend Developer",
@@ -405,20 +396,20 @@
       "id": "XexYAa6"
     },
     {
-      "firstName": "Adrian",
-      "lastName": "dsad",
-      "jobTitle": "sdasd",
-      "email": "email@algo.com",
-      "twitter": "dasdas",
-      "id": "koPl1Bq"
-    },
-    {
       "id": "0zgd5aJ",
       "firstName": "Alexander",
       "lastName": "Salgado",
       "email": "droxander@droxander.com",
       "jobTitle": "Frontend Engineer",
       "twitter": "droxsander"
+    },
+    {
+      "firstName": "Miguel",
+      "lastName": "Riaño",
+      "jobTitle": "Software Engineer (Grandes Cambios)",
+      "email": "miemailmiguel@gmail.com",
+      "twitter": "miguelloco",
+      "id": "EQ2RZL2"
     }
   ]
 }

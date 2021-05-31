@@ -13,10 +13,13 @@
 
 .Modal__container {
 	position: relative;
-	top: 10rem;
+	top: 25%;
 	background-color: #ffffff;
 	padding: 1rem;
-	width: 400px;
+	width: 90%;
+	max-width: 350px;
+
+	text-align: center;
 }
 
 .Modal__close-button {
@@ -24,6 +27,11 @@
 	top: 0;
 	right: 0;
 	border: 0;
-	background-color: #f5f5f5;
+	background: #ffffff;
+	color: rgb(149, 149, 149);
 	padding: 0.5rem 1rem;
+}
+
+.Modal__close-button:hover {
+	color: red;
 }

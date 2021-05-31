@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e882c93e8d319d04d63c",
+    "revision": "67bd18a4732f2c55fb3b",
     "url": "/platzi-badges/static/css/main.2145bbdc.chunk.css"
   },
   {
-    "revision": "e882c93e8d319d04d63c",
-    "url": "/platzi-badges/static/js/main.e882c93e.chunk.js"
+    "revision": "67bd18a4732f2c55fb3b",
+    "url": "/platzi-badges/static/js/main.67bd18a4.chunk.js"
   },
   {
     "revision": "0f7117b146aebd482afe",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/platzi-badges/static/media/badge-header.973f5842.svg"
   },
   {
-    "revision": "4397d528b4410658cea9949591ab6af9",
+    "revision": "7bf69bc605f05c63e8a4c5e3e1ea5bac",
     "url": "/platzi-badges/index.html"
   }
 ];

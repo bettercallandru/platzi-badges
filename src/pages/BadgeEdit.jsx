@@ -98,7 +98,7 @@ class BadgeEdit extends React.Component {
 						<Badge data={this.state.data} />
 					</div>
 					<div className="row BadgeNew__form">
-						<h1>New Attendant</h1>
+						<h1>Eddit Attendant</h1>
 						<BadgeForm
 							form={this.state.data}
 							handleSubmit={this.handleSubmit}

@@ -15,7 +15,10 @@ function HomePage() {
 						<h1>print your badges</h1>
 						<p>The easiest way to manage your conference</p>
 					</section>
-					<Link className="btn btn-primary link-unstyled" to="/badges/">
+					<Link
+						className="btn btn-primary link-unstyled"
+						to="/platzi-badges/badges/"
+					>
 						Start now
 					</Link>
 				</div>

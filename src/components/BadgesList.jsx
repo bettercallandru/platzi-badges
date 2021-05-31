@@ -23,7 +23,7 @@ function BadgesList(props) {
 					<li className="BadgeList__item" key={badge.id}>
 						<div className="BadgeList__header">
 							<h3 className="font-normal font-weight-light">{`${badge.firstName} ${badge.lastName}`}</h3>
-							<Link to={`/badges/${badge.id}`}>
+							<Link to={`/platzi-badges/badges/${badge.id}`}>
 								<img className="icon" src={IconEdit} alt="Edit the badge" />
 							</Link>
 						</div>

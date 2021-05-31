@@ -7,7 +7,7 @@ import logo from '../images/logo.svg';
 function Eventbar() {
 	return (
 		<div className="Eventbar">
-			<Link className="Eventbar__brand font-color-primary" to="/">
+			<Link className="Eventbar__brand font-color-primary" to="/platzi-badges/">
 				<img className="Nabvar__brand-logo" src={logo} alt="Logo" />
 				<span className="font-weight-light">Conference</span>
 				<span className="font-weight-bold">badges</span>

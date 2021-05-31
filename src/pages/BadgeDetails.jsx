@@ -64,7 +64,7 @@ class BadgeDetails extends React.Component {
 					<div className="row">
 						<h2>Actions:</h2>
 						<Link
-							to={`/badges/${this.state.data.id}/edit`}
+							to={`/platzi-badges/badges/${this.state.data.id}/edit`}
 							className="btn btn-primary link-unstyled"
 						>
 							Edit

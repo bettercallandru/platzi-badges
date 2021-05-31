@@ -43,7 +43,7 @@ class Badges extends React.Component {
 				<div className="container Badges__container">
 					<Link
 						className="btn btn-primary link-unstyled Badges__link"
-						to="/badges/new"
+						to="/platzi-badges/badges/new"
 					>
 						Add
 					</Link>

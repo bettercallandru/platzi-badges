@@ -52,7 +52,7 @@ function BadgeForm(props) {
 					type="text"
 				/>
 			</label>
-			<Link className="BadgeForm-link" to="/badges">
+			<Link className="BadgeForm-link" to="/platzi-badges/badges">
 				<img className="icon" src={ArrowRight} alt="Right arrow" /> Go to Badges
 				List
 			</Link>

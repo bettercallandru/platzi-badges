@@ -14,12 +14,20 @@ function App() {
 		<BrowserRouter>
 			<Layout>
 				<Switch>
-					<Route exact path="/" component={HomePage} />
-					<Route exact path="/badges/" component={Badges} />
-					<Route exact path="/badges/new" component={BadgeNew} />
-					<Route exact path="/badges/:badgeId" component={BadgeDetails} />
-					<Route exact path="/badges/:badgeId/edit" component={BadgeEdit} />
-					<Route exact path="/404" component={NotFound} />
+					<Route exact path="/platzi-badges" component={HomePage} />
+					<Route exact path="/platzi-badges/badges/" component={Badges} />
+					<Route exact path="/platzi-badges/badges/new" component={BadgeNew} />
+					<Route
+						exact
+						path="/platzi-badges/badges/:badgeId"
+						component={BadgeDetails}
+					/>
+					<Route
+						exact
+						path="/platzi-badges/badges/:badgeId/edit"
+						component={BadgeEdit}
+					/>
+					<Route exact path="/platzi-badges/404" component={NotFound} />
 					<Redirect from="*" to="/404" />
 				</Switch>
 			</Layout>

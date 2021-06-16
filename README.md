@@ -1,6 +1,7 @@
 # Platzi Badges (Proyect)
 
 Proyecto final del curso de Reactjs de platzi.
+[Haz click a Platzi Badges!](https://droxander.github.io/platzi-badges/)
 
 ## Tegnologias
 

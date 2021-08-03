@@ -10,20 +10,28 @@
       "avatarUrl": "https://www.gravatar.com/avatar/01d0de92ec9ca4fdfbb99edf6a1abfea?d=identicon"
     },
     {
-      "firstName": "Adrian Mauricio",
-      "lastName": "Salgado Cano",
-      "jobTitle": "Frontend Developer",
-      "email": "adrianmauricio337@gmail.com",
-      "twitter": "droxsander",
-      "id": "fHvkx3T"
+      "firstName": "Adrian",
+      "lastName": "Salgado",
+      "jobTitle": "Frontend Engineer",
+      "email": "adrian@gmail.com",
+      "twitter": "",
+      "id": "ZAGUyxP"
     },
     {
-      "firstName": "Ryan",
-      "lastName": "Mgned",
+      "firstName": "Cristian",
+      "lastName": "Alejandro",
+      "jobTitle": "CTO Startup",
+      "email": "cristian23@gmail.com",
+      "twitter": "cristpy",
+      "id": "SUDPXS9"
+    },
+    {
+      "firstName": "Lussiana",
+      "lastName": "Marentez",
       "jobTitle": "Software Engineer",
-      "email": "dryan@ryanmg.com",
-      "twitter": "ryanmg",
-      "id": "9e9yBn2"
+      "email": "Lusimarentes@gmail.com",
+      "twitter": "Lusimarentes",
+      "id": "D9iQhUN"
     }
   ]
 }

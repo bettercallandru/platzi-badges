@@ -1,5 +1,4 @@
 {
-  "homepage": "https://adriansa1gado.github.io/platzi-badges/",
   "name": "platzi-badges",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +9,7 @@
     "client": "react-scripts start",
     "server": "json-server --port 3001 --watch ./db.json",
     "seed": "node server/seed.js",
-    "build": "react-scripts build",
+    "build": "react-scripts build && echo {\"badges\":[]} > ./build/db.json",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
